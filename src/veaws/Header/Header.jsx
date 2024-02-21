@@ -1,5 +1,5 @@
 import s from "./Header.module.scss";
-import Container from "../Conteiner/Container.jsx";
+import Container from "../Container/Container.jsx";
 import Logo from "../../components/Logo/Logo.jsx";
 import Navigation from "../../components/Navigation/Navigation.jsx";
 

@@ -1,4 +1,4 @@
-import "./Main.module.scss";
+import "./Main.scss";
 import Page from "../../components/Page/Page.jsx";
 import Popular from "../../components/Popular/Popular.jsx";
 
