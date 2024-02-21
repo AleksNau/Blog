@@ -1,7 +1,6 @@
 import s from "./Header.module.scss";
 import Container from "../Conteiner/Container.jsx";
 import Logo from "../../components/Logo/Logo.jsx";
-import SearchForm from "../../components/SearchForm/SearchForm.jsx";
 import Navigation from "../../components/Navigation/Navigation.jsx";
 
 const Header = ({setActive, active}) => (
