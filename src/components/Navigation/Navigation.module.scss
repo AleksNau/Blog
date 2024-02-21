@@ -1,0 +1,44 @@
+.navigation {
+  display: flex;
+  gap: 16px;
+
+  @media (min-width: 580px) {
+
+  }
+  @media (min-width: 820px) {
+
+  }
+  @media (min-width: 1120px) {
+
+  }
+}
+
+.link {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  flex-direction: row-reverse;
+  outline-offset: 4px;
+  border-radius: 4px;
+
+  @media (min-width: 580px) {
+    flex-direction: row;
+  }
+
+  &:hover,
+  &:active,
+  &:focus-visible {
+    color: #780096;
+  }
+
+}
+
+.text {
+  position: fixed;
+  transform: scale(0);
+
+  @media (min-width: 580px) {
+    position: unset;
+    transform: scale(1);
+  }
+}
