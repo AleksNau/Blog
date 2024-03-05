@@ -2,6 +2,7 @@ import s from "./Contacts.module.scss";
 
 const Contacts = () => (
   <div className={s.contacts}>
+    <h2>Call us</h2>
     <a className={`${s.phone} ${s.link}`} href="tel: +7 (939) 839 12 97">
       <svg
         width="16"
@@ -16,7 +17,7 @@ const Contacts = () => (
       </svg>
       <span>+7 (939) 839 12 97</span>
     </a>
-
+    <h2>Follow us</h2>
     <ul className={s.list}>
       <li>
         <a className={s.link} href="#" aria-label="Ссылка на группу в VK">

@@ -1,11 +1,20 @@
 import React from "react";
-import "./Popular.scss";
+import s from "./Popular.module.scss";
+import News from "../News/News.jsx";
+import Container from "../../veaws/Container/Container.jsx";
 
 const Popular = () => {
     return (
-        <section>
 
-        </section>
+            <Container >
+                <section className={s.container}>
+                    <h2 className={s.title}>Заголовок</h2>
+                    <News/>
+                    <News/>
+                    <News/>
+                </section>
+            </Container>
+
     );
 };
 

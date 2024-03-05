@@ -7,10 +7,13 @@ import Contacts from "../../components/Contacts/Contacts.jsx";
 const Footer = () => (
   <footer className={s.footer}>
     <Container className={s.container}>
+
       <div className={s.logo}>
         <Logo />
       </div>
+
       <div className={s.contacts}>
+
         <Contacts />
       </div>
       <p className={s.copyright}>All rights reserved © </p>

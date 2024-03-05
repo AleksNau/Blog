@@ -1,0 +1,29 @@
+.news {  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "image title"
+    "image paragraph"
+    "image paragraph";
+}
+
+.paragraph {
+  grid-area: paragraph;
+  font-size: 12px;
+  align-self: center;
+}
+
+.image {
+  grid-area: image;
+  width: 100%;
+  object-position: center;
+}
+
+.title {
+  justify-self: center;
+  grid-area: title;
+  align-self: center;
+  font-size: 16px;
+  margin: 0;
+  width: 100%;
+}
