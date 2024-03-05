@@ -5,11 +5,11 @@ import Footer from "./veaws/Footer/Footer.jsx";
 import './App.css'
 
 function App() {
-
+    const [menuActive, setMenuActive] = useState(false);
 
   return (
     <>
-        <Header/>
+        <Header  active={menuActive} setActive={setMenuActive}/>
         <Main />
         <Footer />
     </>

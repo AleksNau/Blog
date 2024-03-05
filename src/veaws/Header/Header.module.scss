@@ -1,5 +1,5 @@
 .header {
-  padding: 16px 0;
+
   border-bottom: 1px solid #EEEFF2;
   @media (min-width: 580px) {
 
@@ -12,43 +12,20 @@
   }
 }
 
-.container {
-  display: grid;
-  gap: 16px;
-  align-items: center;
+.publication {
+  display: flex;
   justify-content: space-between;
-  grid-template-areas:
-"logo navigation"
-"search search";
-
-  @media (min-width: 820px) {
-    grid-template-areas: "logo search navigation";
-    grid-template-columns: 94px 1fr auto;
-    align-items: center;
-  }
-  @media (min-width: 1120px) {
-
-  }
 }
 
 .logo {
-  grid-area: logo;
-  width: 94px;
+  width: 20%;
 }
 
-.search {
-  grid-area: search;
+.button {
 
-  @media (min-width: 820px) {
-    max-width: 408px;
-    justify-self: center;
-  }
-  @media (min-width: 1120px) {
-    max-width: 514px;
-  }
-}
-
-.navigation {
-  grid-area: navigation;
-  justify-self: end;
+  box-sizing: border-box;
+  border-style: none;
+  background-color: black;
+  width: 30px;
+  height: 30px;
 }

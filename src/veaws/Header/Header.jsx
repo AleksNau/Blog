@@ -9,8 +9,8 @@ const Header = ({setActive, active}) => (
       <div className={s.logo}>
         <Logo />
       </div>
-        <button className="header__button-burger" onClick={() => setActive(!active)}>
-            <span className="header__button-line"/>
+        <button className={s.button} onClick={() => setActive(!active)}>
+
         </button>
         <Navigation active={active} setActive={setActive}/>
     </Container>

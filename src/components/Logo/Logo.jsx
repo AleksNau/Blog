@@ -1,5 +1,5 @@
 import s from "./Logo.module.scss";
-import logo from "./images/logo.svg";
+import logo from "./images/bloglogo.svg";
 
 const Logo = () => (
   <a className={s.link} href="/">
