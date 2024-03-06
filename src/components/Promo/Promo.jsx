@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./images/Promo.jpg"
+
 import s from "./Promo.module.scss";
 import Container from "../../veaws/Container/Container.jsx";
 

@@ -1,0 +1,19 @@
+.tags {
+  background-color: #fff;
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: none;
+  gap: 20px;
+  padding: 17px 13px 20px 13px;
+  flex-direction: row;
+  justify-self: stretch;
+
+  @media (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.container {
+  width: 100%;
+  box-sizing: border-box;
+}

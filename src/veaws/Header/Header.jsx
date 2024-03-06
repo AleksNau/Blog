@@ -10,7 +10,7 @@ const Header = ({setActive, active}) => (
         <Logo />
       </div>
         <button className={s.button} onClick={() => setActive(!active)}>
-
+            <span className={s.line}/>
         </button>
         <Navigation active={active} setActive={setActive}/>
     </Container>

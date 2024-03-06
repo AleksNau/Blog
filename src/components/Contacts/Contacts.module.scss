@@ -4,14 +4,10 @@
   flex-direction: column;
   justify-items: center;
 
-  @media (min-width: 580px) {
-
-  }
-  @media (min-width: 820px) {
-
-  }
-  @media (min-width: 1120px) {
-
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
   }
 }
 
@@ -24,7 +20,9 @@
   display: flex;
   gap: 8px;
   list-style-type: none;
-  margin: 0;padding: 0;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 
 }
 

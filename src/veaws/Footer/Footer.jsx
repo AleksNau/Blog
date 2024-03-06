@@ -16,8 +16,9 @@ const Footer = () => (
 
         <Contacts />
       </div>
-      <p className={s.copyright}>All rights reserved © </p>
+
     </Container>
+      <p className={s.copyright}>All rights reserved © </p>
   </footer>
 );
 export default Footer;

@@ -1,6 +1,7 @@
 .header {
-
-  border-bottom: 1px solid #EEEFF2;
+  box-sizing: border-box;
+  padding-top: 16px;
+  padding-bottom: 20px;
   @media (min-width: 580px) {
 
   }
@@ -12,9 +13,10 @@
   }
 }
 
-.publication {
+.container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -24,8 +26,50 @@
 .button {
 
   box-sizing: border-box;
-  border-style: none;
-  background-color: black;
+  border: 1px solid black;
+
   width: 30px;
   height: 30px;
+
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+  -webkit-transition: opacity linear .4s;
+  -o-transition: opacity linear .4s;
+  transition: opacity linear .4s;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:before {
+  top: 5px;
+  left: 4px;
+  content: '';
+  position: absolute;
+  width: 20px;
+  background-color: #000;
+  height: 3px;
+}
+
+.line {
+  top: 13px;
+  left: 4px;
+  content: '';
+  position: absolute;
+  width: 20px;
+  background-color: #000;
+  height: 3px;
+}
+
+.button:after {
+  left: 4px;
+  bottom: 5px;
+  content: '';
+  position: absolute;
+  width: 20px;
+  background-color: #000;
+  height: 2px;
 }

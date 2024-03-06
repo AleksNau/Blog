@@ -1,17 +1,16 @@
 
 .promo {
-  background-image: url("../src/components/Promo/images/Promo.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../src/components/Promo/images/Promo-small.jpg")no-repeat center right ;
+  background-size: 100% auto;
   width: 100%;
   height: 294px;
   border-radius: 7px;
 }
 
 .title {
-  color: #FFFFFF;
+  color: #000;
   padding-top: 23px;
   text-align: left;
   padding-left: 15px;
+  margin: 0;
 }

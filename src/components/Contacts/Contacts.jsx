@@ -22,8 +22,8 @@ const Contacts = () => (
       <li>
         <a className={s.link} href="#" aria-label="Ссылка на группу в VK">
           <svg
-            width="16"
-            height="16"
+            width="25"
+            height="25"
             viewBox="0 0 16 16"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -37,8 +37,8 @@ const Contacts = () => (
       <li>
         <a className={s.link} href="#" aria-label="Ссылка на ютуб канал">
           <svg
-            width="16"
-            height="16"
+            width="30"
+            height="30"
             viewBox="0 0 16 16"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -52,8 +52,8 @@ const Contacts = () => (
       <li>
         <a className={s.link} href="#" aria-label="Ссылка на группу в telegram">
           <svg
-            width="16"
-            height="16"
+            width="25"
+            height="25"
             viewBox="0 0 16 16"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
