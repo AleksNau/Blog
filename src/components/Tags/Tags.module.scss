@@ -8,12 +8,8 @@
   flex-direction: row;
   justify-self: stretch;
 
-  @media (min-width: 768px) {
+  @media (min-width: 568px) {
     display: flex;
   }
 }
 
-.container {
-  width: 100%;
-  box-sizing: border-box;
-}

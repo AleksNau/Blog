@@ -2,15 +2,24 @@ import React from "react";
 import s from "./Page.module.scss";
 import Publication from "../Publication/Publication.jsx";
 import Container from "../../veaws/Container/Container.jsx";
+import Popular from "../Popular/Popular.jsx";
+import Tags from "../Tags/Tags.jsx";
 
 const Page = () => {
     return (
-        <section>
+        <section className={s.page}>
             <Container className={s.container}>
-                <Publication/>
-                <Publication/>
-                <Publication/>
-            </Container>
+                <div className={s.publications}>
+                    <Publication/>
+                    <Publication/>
+                    <Publication/>
+                </div>
+
+
+            <div className={s.subsection}>
+                <Popular/>
+                <Tags/>
+            </div></Container>
         </section>
     );
 };
