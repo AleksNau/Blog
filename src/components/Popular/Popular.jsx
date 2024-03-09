@@ -1,7 +1,6 @@
 import React from "react";
 import s from "./Popular.module.scss";
 import News from "../News/News.jsx";
-import Container from "../../veaws/Container/Container.jsx";
 
 const Popular = () => {
     return (
