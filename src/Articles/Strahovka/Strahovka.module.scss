@@ -1,0 +1,46 @@
+.paper {
+
+  @media (min-width: 580px) {
+
+  }
+
+  @media (min-width: 1120px) {
+
+  }
+}
+
+.title {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0 15px;
+
+  @media (min-width: 820px) {
+    font-size: 18px;
+  }
+}
+
+.paragraph {
+  margin: 0;
+  text-align: left;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.author {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+}
+
+.second_name {
+  font-size: 16px;
+  color: #5B41F5;
+}
+
+.tags {
+  font-size: 16px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
