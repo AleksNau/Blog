@@ -4,16 +4,12 @@ import News from "../News/News.jsx";
 
 const Popular = () => {
     return (
-
-
-                <section className={s.container}>
-                    <h2 className={s.title}>Заголовок</h2>
-                    <News/>
-                    <News/>
-                    <News/>
-                </section>
-
-
+        <section className={s.container}>
+            <h2 className={s.title}>Заголовок</h2>
+            <News/>
+            <News/>
+            <News/>
+        </section>
     );
 };
 

@@ -9,7 +9,7 @@ import Paper from "../Paper/Paper.jsx";
 const Page = () => {
     return (
         <section className={s.page}>
-            { /* <Container className={s.container}>
+            {/*  <Container className={s.container}>
                 <div className={s.publications}>
                     <Publication/>
                     <Publication/>

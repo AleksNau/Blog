@@ -1,0 +1,39 @@
+@mixin text-reset {
+  margin: 0;
+  text-align: left;
+}
+
+.publication {
+  box-sizing: border-box;
+  background-color: #eae9e9;
+  border-radius: 4px;
+}
+
+.about {
+  color: rgb(91, 65, 245);
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding-top: 15px;
+}
+
+.text {
+  color: #000;
+}
+
+.title {
+  @include text-reset;
+}
+
+.paragraph {
+  @include text-reset;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 0 13px 10px 13px;
+}
