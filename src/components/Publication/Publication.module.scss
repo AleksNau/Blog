@@ -1,3 +1,8 @@
+@mixin text-reset {
+  margin: 0;
+  text-align: left;
+}
+
 .publication {
   box-sizing: border-box;
   background-color: #eae9e9;
@@ -17,13 +22,11 @@
 }
 
 .title {
-  margin: 0;
-  text-align: left;
+  @include text-reset;
 }
 
 .paragraph {
-  margin: 0;
-  text-align: left;
+  @include text-reset;
 }
 
 .image {

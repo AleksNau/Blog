@@ -1,15 +1,17 @@
-.container {
+@mixin flex-item {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.container {
+  @include flex-item;
   @media (min-width: 820px) {
     flex-direction: row;
   }
 }
 .publications {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  @include flex-item;
   @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,9 +26,5 @@
 }
 
 .subsection {
-
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
+  @include flex-item;
 }
