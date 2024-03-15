@@ -1,7 +1,7 @@
 import s from "./Tag.module.scss";
 
-const Tag = () => (
-    <button className={s.tag}>
+const Tag = ({filter,category}) => (
+    <button className={s.tag} onClick={() => filter(category)}>
 Tag
     </button>
 )
