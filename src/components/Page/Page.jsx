@@ -7,24 +7,24 @@ import Tags from "../Tags/Tags.jsx";
 import Paper from "../Paper/Paper.jsx";
 import shorts from "../../publication-list/list.js";
 import Filtered from "../../veaws/Filtered/Filtered.jsx";
+import FilteredContext from "../../contexts/filteredContext.js";
 
 const Page = () => {
 
-//стейт сохраненных карточек
-    const [savedMovies, setSavedMovies] = useState([]);
+    //стейт отфильтрованых тегов
+    const [savedPublications, setSavedPublications] = useState([]);
 
     function HandleFilter (data){
-        const filteredMovie = shorts.filter((movie)=> {
-            return movie.category === data
+        const filteredPublications = shorts.filter((item)=> {
+            return item.category === data
         })
-        setSavedMovies(filteredMovie)
-        console.log(filteredMovie)
+        setSavedPublications(filteredPublications)
     }
-    useEffect(() => {
 
-    }, []);
     return (
-        <section className={s.page}>{/*
+        <section className={s.page}>
+            <FilteredContext.Provider value={HandleFilter}>
+            {/*
              <Container className={s.container}>
                 <div className={s.publications}>
                     {shorts.map((card) => {
@@ -44,13 +44,14 @@ const Page = () => {
                 </div>
             </Container>*/}
             <Container className={s.container}>
-                <Paper/>
+                <Paper category={"Земля"}/>
                 <div className={s.subsection}>
                     <Popular/>
-                    <Tags action={HandleFilter}/>
+                    <Tags/>
                 </div>
             </Container>
-            <Filtered saved={savedMovies}/>
+            <Filtered saved={savedPublications}/>
+            </FilteredContext.Provider>
         </section>
     );
 };
