@@ -8,22 +8,14 @@ import Paper from "../Paper/Paper.jsx";
 import shorts from "../../publication-list/list.js";
 import Filtered from "../../veaws/Filtered/Filtered.jsx";
 import FilteredContext from "../../contexts/filteredContext.js";
+import { Route, Routes, Navigate, useNavigate } from "react-router-dom";
 
 const Page = () => {
 
-    //стейт отфильтрованых тегов
-    const [savedPublications, setSavedPublications] = useState([]);
-
-    function HandleFilter (data){
-        const filteredPublications = shorts.filter((item)=> {
-            return item.category === data
-        })
-        setSavedPublications(filteredPublications)
-    }
 
     return (
         <section className={s.page}>
-            <FilteredContext.Provider value={HandleFilter}>
+
             {/*
              <Container className={s.container}>
                 <div className={s.publications}>
@@ -50,8 +42,7 @@ const Page = () => {
                     <Tags/>
                 </div>
             </Container>
-            <Filtered saved={savedPublications}/>
-            </FilteredContext.Provider>
+
         </section>
     );
 };
