@@ -4,7 +4,7 @@ import Slider from "../../components/Slider/Slider.jsx";
 import Promo from "../../components/Promo/Promo.jsx";
 import Direction from "../../components/Direction/Direction.jsx";
 import { Route, Routes, useLocation } from "react-router-dom";
-import React, { useState } from "react";
+import { useState } from "react";
 import FilteredContext from "../../contexts/filteredContext.js";
 import shorts from "../../publication-list/list.js";
 import Filtered from "../Filtered/Filtered.jsx";
@@ -26,7 +26,7 @@ const Main = () => {
   return (
     <main className={s.page}>
       <FilteredContext.Provider value={HandleFilter}>
-        {pathMain && <Direction />}
+        <Direction />
         {pathMain && <Promo />}
 
         {pathMain && <Slider />}

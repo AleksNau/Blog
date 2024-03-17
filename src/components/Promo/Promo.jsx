@@ -1,5 +1,3 @@
-import React from "react";
-
 import s from "./Promo.module.scss";
 import Container from "../../veaws/Container/Container.jsx";
 

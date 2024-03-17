@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./Page.module.scss";
 import Container from "../../veaws/Container/Container.jsx";
 import Popular from "../Popular/Popular.jsx";

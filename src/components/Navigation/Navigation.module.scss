@@ -19,7 +19,7 @@
 
 .navigation__content {
   width: 520px;
-
+  padding-top: 100px;
   height: 100%;
   background-color: #202020;
   display: flex;
@@ -68,7 +68,8 @@
 }
 
 
-.navigation__button-close {
+.navigation__button_close {
+  color: #FFFFFF;
   position: absolute;
   top: 22.44px;
   right: 22.44px;
@@ -84,7 +85,7 @@
   cursor: pointer;
 }
 
-.navigation__button-close:hover {
+.navigation__button_close:hover {
   opacity: 0.8;
 }
 

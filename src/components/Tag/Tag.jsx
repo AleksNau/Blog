@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import s from "./Tag.module.scss";
 import FilteredContext from "../../contexts/filteredContext.js";
 import { useNavigate } from "react-router-dom";

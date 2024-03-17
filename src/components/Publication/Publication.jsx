@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./Publication.module.scss";
 import Likes from "../Likes/Likes.jsx";
 

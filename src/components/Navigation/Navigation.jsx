@@ -10,7 +10,7 @@ const Navigation = ({ active, setActive }) => (
     <div className={s.navigation__content} onClick={(e) => e.stopPropagation()}>
       <button
         type="button"
-        className={s.navigation__button - close}
+        className={s.navigation__button_close}
         onClick={() => setActive(false)}
       />
       <ul className={s.navigation__list}>

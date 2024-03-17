@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./Popular.module.scss";
 import News from "../News/News.jsx";
 import shorts from "../../publication-list/list.js";

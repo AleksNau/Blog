@@ -1,4 +1,3 @@
-import React from "react";
 import s from "./Slider.module.scss";
 import Container from "../../veaws/Container/Container.jsx";
 import Likes from "../Likes/Likes.jsx";
