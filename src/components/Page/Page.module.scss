@@ -10,6 +10,7 @@
     flex-direction: row;
   }
 }
+
 .publications {
   @include flex-item;
   @media (min-width: 768px) {

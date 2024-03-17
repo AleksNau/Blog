@@ -34,7 +34,7 @@
 }
 
 .menu__link {
-  @include adaptiv-font(18,16);
+  @include adaptiv-font(18, 16);
   display: block;
   text-decoration: none;
   cursor: pointer;
@@ -56,11 +56,13 @@
     font-size: 18px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
   }
 }
+
 @media screen and (max-width: 500px) {
 
 }

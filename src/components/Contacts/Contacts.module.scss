@@ -31,13 +31,13 @@
   outline: 1px solid transparent;
   display: flex;
   align-items: center;
+
   &:hover,
   &:active {
     color: #780096;
   }
 
-  &:focus-visible
-  {
+  &:focus-visible {
     color: #780096;
     outline-color: #780096;
   }
