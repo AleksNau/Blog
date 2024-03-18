@@ -33,6 +33,10 @@ const Main = () => {
 
         <Routes>
           <Route path={"/pub"} element={<Page />} />
+          <Route path={"/nalog"} element={<Page />} />
+          <Route path={"/property"} element={<Page />} />
+          <Route path={"/investbot"} element={<Page />} />
+
           <Route
             path={"/tags"}
             element={<Filtered saved={savedPublications} />}

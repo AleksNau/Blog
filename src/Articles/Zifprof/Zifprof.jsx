@@ -1,7 +1,7 @@
 import s from "./Zifprof.module.scss";
 import Tag from "../../components/Tag/Tag.jsx";
 
-const Zifprof = () => (
+const Zifprof = ({ category }) => (
   <article className={s.paper}>
     <h1 className={s.title}>
       Как присоединиться к программе «Цифровые профессии»
@@ -40,7 +40,7 @@ const Zifprof = () => (
     </p>
     <div className={s.tags}>
       <p>Теги:</p>
-      <Tag />
+      <Tag category={category} />
     </div>
     {/*
         Реферальная программа сервиса “Яндекс.Практикум” - пользователи могут получить скидку на обучение в размере до 7% от стоимости курса. Для этого нужно зарегистрироваться на сайте и пригласить друзей.

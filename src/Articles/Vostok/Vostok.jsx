@@ -1,7 +1,7 @@
 import s from "./Vostok.module.scss";
 import Tag from "../../components/Tag/Tag.jsx";
 
-const Vostok = () => (
+const Vostok = ({ category }) => (
   <article className={s.paper}>
     <h1 className={s.title}>
       Инструкция по программе “Дальневосточный гектар”
@@ -35,7 +35,7 @@ const Vostok = () => (
     </p>
     <div className={s.tags}>
       <p>Теги:</p>
-      <Tag />
+      <Tag category={category} />
     </div>
   </article>
 );

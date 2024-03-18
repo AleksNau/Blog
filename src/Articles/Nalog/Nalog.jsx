@@ -1,7 +1,7 @@
 import s from "./Nalog.module.scss";
 import Tag from "../../components/Tag/Tag.jsx";
 
-const Nalog = () => (
+const Nalog = ({ category }) => (
   <article className={s.paper}>
     <h1 className={s.title}>Налоговый вычет: простая инструкция</h1>
     <p className={s.paragraph}>
@@ -37,7 +37,7 @@ const Nalog = () => (
     </p>
     <div className={s.tags}>
       <p>Теги:</p>
-      <Tag />
+      <Tag category={category} />
     </div>
   </article>
 );
