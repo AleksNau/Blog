@@ -1,7 +1,7 @@
 import s from "./Investbot.module.scss";
 import Tag from "../../components/Tag/Tag.jsx";
 
-const Investbot = () => (
+const Investbot = ({ category }) => (
   <article className={s.paper}>
     <h1 className={s.title}>
       Торговый бот на JavaScript с использованием Тинькофф API
