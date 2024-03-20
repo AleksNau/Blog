@@ -12,7 +12,9 @@ const Direction = () => {
         <span>&#8250;</span>
         {pathname === "/" ? <span>Новости</span> : ""}
         {pathname === "/tags" ? <span>Тэги</span> : ""}
-        {pathname === "/pub" ? <span>Публикация</span> : ""}
+        {pathname === "/property" ? <span>Дальневосточный гектар</span> : ""}
+        {pathname === "/tax" ? <span>Налоговый вычет</span> : ""}
+        {pathname === "/bot" ? <span>Торговый бот</span> : ""}
       </div>
     </Container>
   );

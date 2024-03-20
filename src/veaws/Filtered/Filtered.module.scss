@@ -1,7 +1,13 @@
 .filtered {
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .container {
   margin: 0;
+}
+
+.item {
+  max-width: 40%;
 }

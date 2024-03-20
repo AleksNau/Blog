@@ -38,8 +38,10 @@
   -webkit-transition: opacity linear .4s;
   -o-transition: opacity linear .4s;
   transition: opacity linear .4s;
+  @media (min-width: 820px) {
+    display: none;
+  }
 }
-
 .button:hover {
   opacity: 0.8;
 }

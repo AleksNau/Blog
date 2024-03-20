@@ -6,12 +6,14 @@ const Filtered = ({ children, saved }) => (
   <Container className={s.container}>
     <div className={s.filtered}>
       {saved.map((card) => (
-        <Publication
-          key={card.name}
-          title={card.title}
-          link={card.link}
-          text={card.subtext}
-        />
+        <div className={s.item}>
+          <Publication
+            key={card.name}
+            title={card.title}
+            link={card.link}
+            text={card.subtext}
+          />
+        </div>
       ))}
     </div>
   </Container>

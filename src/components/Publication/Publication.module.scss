@@ -6,7 +6,9 @@
 .publication {
   box-sizing: border-box;
   background-color: #eae9e9;
-  border-radius: 4px;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 435px;
 }
 
 .about {
@@ -31,7 +33,8 @@
 
 .image {
   width: 100%;
-  height: auto;
+
+  max-height: 303px;
 }
 
 .container {

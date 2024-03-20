@@ -5,7 +5,8 @@ const Promo = () => (
   <section>
     <Container>
       <div className={s.promo}>
-        <h1 className={s.title}>Blog</h1>
+        <h1 className={s.title}>AlEX,HOW?</h1>
+        <p className={s.text}>Блог о деньгах и возможностях</p>
       </div>
     </Container>
   </section>
