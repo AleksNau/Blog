@@ -6,6 +6,7 @@ const shorts = [
     subtext:
       "Уменьшает сумму налога на доход. Помогает сэкономить на налогах и увеличить личный бюджет.",
     category: "Деньги",
+    route :"/tax"
   },
   {
     name: "Vostok",
@@ -14,6 +15,7 @@ const shorts = [
     subtext:
       "Программа получения земельного участка в собственность на Дальнем Востоке.",
     category: "Земля",
+    route :"/property"
   },
   {
     name: "Bot",
@@ -21,6 +23,7 @@ const shorts = [
     link: "https://t3.ftcdn.net/jpg/05/85/33/24/360_F_585332472_NXIwwkCBvdqr7HDnLxFFQpuxWr6BxuEE.jpg",
     subtext: "Автоматизирует процессы покупки и продажи активов на бирже.",
     category: "Деньги",
+    route :"/property"
   },
 ];
 

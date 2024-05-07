@@ -15,6 +15,7 @@ const List = () => (
             title={card.title}
             link={card.link}
             text={card.subtext}
+            route={card.route}
           />
         ))}
       </div>
