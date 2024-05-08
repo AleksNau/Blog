@@ -35,7 +35,7 @@ const Vostok = ({ category }) => (
     </p>
     <div className={s.tags}>
       <p>Теги:</p>
-      <Tag category={category} />
+      <Tag category={"Земля"} />
     </div>
   </article>
 );

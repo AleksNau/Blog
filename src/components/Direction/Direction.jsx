@@ -15,6 +15,8 @@ const Direction = () => {
         {pathname === "/property" ? <span>Дальневосточный гектар</span> : ""}
         {pathname === "/tax" ? <span>Налоговый вычет</span> : ""}
         {pathname === "/bot" ? <span>Торговый бот</span> : ""}
+        {pathname === "/cifprof" ? <span>Цифровые профессии</span> : ""}
+        {pathname === "/insurance" ? <span>Страховка</span> : ""}
       </div>
     </Container>
   );

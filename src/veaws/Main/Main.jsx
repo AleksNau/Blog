@@ -12,6 +12,8 @@ import Vostok from "../../Articles/Vostok/Vostok.jsx";
 import Nalog from "../../Articles/Nalog/Nalog.jsx";
 import Investbot from "../../Articles/Investbot/Investbot.jsx";
 import List from "../../components/List/List.jsx";
+import Zifprof from "../../Articles/Zifprof/Zifprof.jsx";
+import Strahovka from "../../Articles/Strahovka/Strahovka.jsx";
 
 const Main = () => {
   const { pathname } = useLocation();
@@ -40,6 +42,8 @@ const Main = () => {
           <Route path={"/property"} element={<Page children={<Vostok />} />} />
           <Route path={"/tax"} element={<Page children={<Nalog />} />} />
           <Route path={"/bot"} element={<Page children={<Investbot />} />} />
+          <Route path={"/cifprof"} element={<Page children={<Zifprof />} />} />
+          <Route path={"/insurance"} element={<Page children={<Strahovka />} />} />
           <Route
             path={"/tags"}
             element={<Filtered saved={savedPublications} />}

@@ -9,7 +9,7 @@ import screen6 from "./images/6.jpg";
 import screen7 from "./images/7.jpg";
 import screen8 from "./images/8.jpg";
 
-const Nalog = ({ category }) => (
+const Nalog = () => (
   <article className={s.paper}>
     <h1 className={s.title}>Налоговый вычет: простая инструкция</h1>
     <p className={s.paragraph}>
@@ -103,7 +103,7 @@ const Nalog = ({ category }) => (
     </p>
     <div className={s.tags}>
       <p>Теги:</p>
-      <Tag category={category} />
+      <Tag category={"Деньги"} />
     </div>
   </article>
 );

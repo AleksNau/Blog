@@ -36,7 +36,7 @@ const Strahovka = ({ category }) => (
     </p>
     <div className={s.tags}>
       <p>Теги:</p>
-      <Tag category={category} />
+      <Tag category={"Деньги"} />
     </div>
     {/* Партнёрские программы Сравни и Черепаха */}
   </article>
